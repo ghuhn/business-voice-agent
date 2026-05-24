@@ -119,7 +119,7 @@ At the end of each call, a JSON file is written to `leads/lead_<session_id>.json
 }
 ```
 
-## What I'd Build Next (One More Week)
+## Potential Upgrades
 
 1. **Multi-agent handoff** — discovery agent → scheduling agent that books a Calendly meeting
 2. **Admin view** — founder dashboard showing all past leads with conversation summaries
