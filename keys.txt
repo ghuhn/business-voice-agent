@@ -1,0 +1,6 @@
+LIVEKIT_URL=wss://voice-agent-nqhxsuud.livekit.cloud
+LIVEKIT_API_KEY=APIqbdAmefsudXM
+LIVEKIT_API_SECRET=8SffGbxSJirb9clP3nT7arX3hB2VO5gG1X64OP7sNZO
+
+deepgram
+secret: e10d61ba83ecebf173441d6915d7041e732a339d

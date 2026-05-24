@@ -1,0 +1,17 @@
+# Python
+agent/venv/
+agent/__pycache__/
+agent/*.pyc
+agent/.env
+
+# Node
+frontend/node_modules/
+frontend/dist/
+frontend/.env
+
+# Leads (contain personal info)
+leads/*.json
+
+# OS
+.DS_Store
+Thumbs.db
