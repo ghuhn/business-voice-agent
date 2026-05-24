@@ -14,8 +14,9 @@ export function useLiveKit() {
 
   const connect = async () => {
     try {
-      store.addDebugLog("Fetching connection token from token server: " + import.meta.env.VITE_TOKEN_ENDPOINT);
-      const tokenRes = await fetch(import.meta.env.VITE_TOKEN_ENDPOINT);
+      const tokenEndpoint = import.meta.env.VITE_TOKEN_ENDPOINT || "/api/token";
+      store.addDebugLog("Fetching connection token from token server: " + tokenEndpoint);
+      const tokenRes = await fetch(tokenEndpoint);
       if (!tokenRes.ok) {
         throw new Error(`Token server returned status ${tokenRes.status}`);
       }
